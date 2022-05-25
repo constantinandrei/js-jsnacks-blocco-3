@@ -49,7 +49,7 @@ myButton.addEventListener('click', function () {
         myDiv.innerHTML = `<h1>La stavamo aspettando, <span class="text-danger">${invitatiGenerati[userIndex]}</span></h1>`
 
     } else {
-        invalidFeedback.innerHTML += userName;
+        invalidFeedback.innerHTML = "Torni a casa sua " + userName;
         myInput.classList.add('is-invalid');
     }
 
